@@ -50,3 +50,30 @@
 .order-btn:hover {
   background-color: #a63f2b;
 }
+
+.contacto {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+.contacto input, .contacto textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contacto button {
+  background-color: #d14e36;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contacto button:hover {
+  background-color: #a63f2b;
+}
